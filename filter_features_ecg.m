@@ -21,13 +21,13 @@ title('Filtered ECG Signal (Low-Pass Butterworth)');
 grid on;
 
 %%to convert into bode plot
-% [H,f]=freqz(b,a,1024,fs);
-% figure;
-% plot(f,20*log10(abs(H)));
-% xlabel('Frequency (Hz)');
-% ylabel('Magnitude (dB)');
-% title('Frequency Response of the Butterworth Filter');
-% grid on;
+[H,f]=freqz(b,a,1024,fs);
+figure;
+plot(f,20*log10(abs(H)));
+xlabel('Frequency (Hz)');
+ylabel('Magnitude (dB)');
+title('Frequency Response of the Butterworth Filter');
+grid on;
 
 % Load filtered ECG signal
 fs = 500; % Sampling frequency (adjust if needed)
