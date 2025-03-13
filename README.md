@@ -1,4 +1,4 @@
-# ecg
+# ECG Signal Processing and Classification
 ECG Signal Processing and Classification
 Overview
 This project focuses on processing and classifying ECG signals using digital filtering and machine learning techniques. The goal is to extract meaningful features from raw ECG data, remove noise, and classify different heart conditions.
